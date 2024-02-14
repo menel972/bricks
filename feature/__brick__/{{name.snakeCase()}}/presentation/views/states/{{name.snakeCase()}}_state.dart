@@ -1,3 +1,6 @@
+import 'package:equatable/equatable.dart';
+import 'package:hooks_riverpod/hooks_riverpod.dart';
+
 ///<i><small>`Presenation Layer`</small></i>
 ///
 /// Documentation here
@@ -21,7 +24,7 @@ class {{name.pascalCase()}}State extends Equatable {
 }
 
 class {{name.pascalCase()}}StateNotifier extends StateNotifier<{{name.pascalCase()}}State> {
-  {{name.pascalCase()}}StateNotifier(): super({{name.pascalCase()}}State);
+  {{name.pascalCase()}}StateNotifier(): super(const {{name.pascalCase()}}State());
 
   void setLoadingState() => state = state.copyWith(isLoading: !state.isLoading );
   

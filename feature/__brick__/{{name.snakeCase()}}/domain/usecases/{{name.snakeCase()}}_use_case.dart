@@ -1,3 +1,5 @@
+import 'package:hooks_riverpod/hooks_riverpod.dart';
+
 class {{name.pascalCase()}}UseCase {
   final {{name.pascalCase()}}Repository repository;
 

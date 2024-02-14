@@ -1,3 +1,5 @@
+import 'package:equatable/equatable.dart';
+
 ///<i><small>`Domain Layer`</small></i>
 ///
 /// Documentation here

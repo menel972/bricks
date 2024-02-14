@@ -1,3 +1,5 @@
+import 'package:equatable/equatable.dart';
+
 ///<i><small>`Data Layer`</small></i>
 ///
 /// Documentation here
