@@ -1,6 +1,6 @@
 # {{name.titleCase()}} folder
 
-> FEATURE DESCRIPTION HERE
+> {{description.sentenceCase()}}
 
 ***
 
